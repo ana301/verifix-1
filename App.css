@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+ 
+}
+.h1 {
+    color: white;
+    font-size: 2.5em;
+    float: left;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 120px;
+  padding: 20px;
+  color: white;
+  font-size: 100px;
+}
+.App-title {
+  font-size: 100px;
+}
+
+.App-intro {
+  font-size: 100px;
+}
+/*some css I added*/
+input[type="file"] {
+    display: inline-block;
+}
+
+.table {
+      max-width: 90%;
+      margin: 10px;
+}
+.table th {
+    text-align: center;
+}
+/*end of my css*/
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
